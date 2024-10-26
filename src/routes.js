@@ -1,4 +1,4 @@
-const { method } = require("lodash"); 
+
 // route sebuah server
 
     const { addNoteHandler, 
