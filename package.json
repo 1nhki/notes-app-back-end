@@ -4,7 +4,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "NODE_ENV=production node ./src/server.js",
     "nodemon": "nodemon ./src/server.js",
     "lint": "eslint ./",
     "lint_fix": "eslint ./ --fix"
